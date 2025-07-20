@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+*{
+  font-family: monospace;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.darkbody{
+  background-color: rgba(39, 39, 39, 0.901);
+  padding: 2rem;
+}
+
+.lightbody{
+  background-color: rgba(255, 255, 254, 0.901);
+  padding: 2rem;
+}
+
+.darkbtn{
+  background-color: #fff;
+  color: black;
+}
+
+
+.lightbtn{
+  background-color: rgba(39, 39, 39, 0.901);
+  color: white;
+}
+
+
+.button{
+  padding: 7px 10px;
+  margin: 17px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+
+.active{
+  background-color: rgba(127, 82, 163, 0.719);
+}
+
+.button:hover{
+  border-radius: 0%;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search input{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search img{
+  width: 30px;
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+  /* margin: 15px auto; */
+  max-width: 1400px;
+}
+
+.newsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  /* background-color: #8cb9a477; */
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s ease;
+}
+
+.newsDiv:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.288);
+}
+
+.cardHover:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.288);
+}
+
+.imgDiv {
+  flex-shrink: 0;
+  width: 205px; /* fixed width for image */
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content h1 {
+  font-size: 1.1rem;
+  margin: 0 0 8px;
+  font-weight: bold;
+}
+
+.content p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
