@@ -49,9 +49,9 @@ VITE_FIREBASE_API_KEY=your_firebase_config
     News API	GNews`
 
 ## 📂 Project Structure
-src/
-├── components/        # Reusable UI components
-├── firebase/         # Firebase configuration
-├── utils/            # Utility functions
-├── App.jsx           # Main application
-└── App.css           # Global styles
+    src/
+    ├── components/        # Reusable UI components
+    ├── firebase/         # Firebase configuration
+    ├── utils/            # Utility functions
+    ├── App.jsx           # Main application
+    └── App.css           # Global styles`
