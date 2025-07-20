@@ -25,8 +25,8 @@ A modern news aggregator that delivers real-time headlines with trending analyti
    git clone https://github.com/yourusername/news-pulse.git
 
 ### Install dependencies:
-```bash
-npm install
+    ```bash
+    npm install
 
 2. Set up environment:
    Create .env file in root directory
@@ -36,17 +36,17 @@ VITE_NEWS_API_KEY=your_gnews_api_key
 VITE_FIREBASE_API_KEY=your_firebase_config
 
 3. Run development server:
-```bash
-npm run dev
+    ```bash
+    npm run dev
 
 
 ## 🔧Tech Stack
-Category	Technology
-Frontend	React + Vite
-Styling	Tailwind CSS
-State Management	Context API
-Database	Firebase Firestore
-News API	GNews
+    Category	Technology
+    Frontend	React + Vite
+    Styling	Tailwind CSS
+    State Management	Context API
+    Database	Firebase Firestore
+    News API	GNews`
 
 ## 📂 Project Structure
 src/
