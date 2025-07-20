@@ -1,12 +1,57 @@
-# React + Vite
+# 📰 News Pulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-Currently, two official plugins are available:
+A modern news aggregator that delivers real-time headlines with trending analytics, built with React, Tailwind CSS, and Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Screenshot](/screenshots/Screenshot1.png)
+![App Screenshot](/screenshots/Screenshot2.png)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Real-time news** from GNews API
+- **Trending analytics** (searches & articles)
+- **Category filters** (Business, Tech, Sports, etc.)
+- **Debounced search** for optimized performance
+- **Dark/Light mode** toggle
+- **Responsive design** for all devices
+
+## 🚀 Quick Start
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/news-pulse.git
+
+### Install dependencies:
+```bash
+npm install
+
+2. Set up environment:
+   Create .env file in root directory
+
+Add your API keys:
+VITE_NEWS_API_KEY=your_gnews_api_key
+VITE_FIREBASE_API_KEY=your_firebase_config
+
+3. Run development server:
+```bash
+npm run dev
+
+
+## 🔧Tech Stack
+Category	Technology
+Frontend	React + Vite
+Styling	Tailwind CSS
+State Management	Context API
+Database	Firebase Firestore
+News API	GNews
+
+## 📂 Project Structure
+src/
+├── components/        # Reusable UI components
+├── firebase/         # Firebase configuration
+├── utils/            # Utility functions
+├── App.jsx           # Main application
+└── App.css           # Global styles
